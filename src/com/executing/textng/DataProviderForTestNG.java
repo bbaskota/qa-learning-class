@@ -109,7 +109,10 @@ public class DataProviderForTestNG extends AllMyMethod {
 		// soft assert vs hard assert 
 		
 		
-		
+		@Test
+		public void addingNewTestCase(){
+			System.out.println("");
+		}
 		
 		
 		@AfterMethod
