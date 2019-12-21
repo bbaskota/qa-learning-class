@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.executing.textng.DataProviderForTestNG">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="testSubmitButtonWithHarDAssertion"/>
+        </methods>
+      </class> <!-- com.executing.textng.DataProviderForTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
